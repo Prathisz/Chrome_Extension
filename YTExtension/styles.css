@@ -1,0 +1,100 @@
+/* General Styling */
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #eb8f8f;
+background-image: linear-gradient(0deg, #eb8f8f 24%, #ff9c9d 30%, #e5c4c4 83%);
+
+    
+    
+    width: 300px;
+}
+
+h1 {
+    text-align: center;
+    color: #261717;
+    margin-bottom: 20px;
+}
+
+/* From Uiverse.io by absoluteSTrange */ 
+button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(238, 255, 56);
+    letter-spacing: 1px;
+    font-size: 5px;
+    transition: all 0.2s ease;
+    /* box-shadow: rgb(201, 46, 70) 0px 10px 0px 0px; */
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+  }
+  
+  button:hover {
+    box-shadow: rgb(223, 33, 68) 0px 7px 0px 0px;
+  }
+  
+  button:active {
+    background-color: rgb(206, 49, 49);
+    /*50, 168, 80*/
+    box-shadow: rgb(201, 46, 70) 0px 0px 0px 0px;
+    transform: translateY(5px);
+    transition: 200ms;
+  }
+  
+
+/* Bookmark List Styling */
+#bookmark-list {
+    margin-bottom: 20px;
+}
+
+.bookmark-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(215, 120, 120, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Button Styling */
+#bookmark-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #fa4b4b;
+    color: rgb(23, 21, 21);
+    border: none;
+    border-radius: 10px;
+
+    cursor: pointer;
+    font-size: 13px;
+    size: 50%;
+}
+
+#bookmark-btn:hover {
+    background-color: #f33a3a;
+}
+
+/* Icon Button Styling */
+.icon-btn {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.icon-btn:hover {
+    color: #0056b3;
+}
+
+.icon-btn.delete {
+    color: #dc3545;
+}
+
+.icon-btn.delete:hover {
+    color: #c82333;
+}
